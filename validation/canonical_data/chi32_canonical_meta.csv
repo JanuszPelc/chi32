@@ -1,0 +1,6 @@
+# MetaData for CHI32 Canonical Tests
+# Fields: logical_name,strategy_code,seed,phase,length,bin_filename
+# strategy_code: 0=sequential, 1=swapped, 2=feedback
+chi32_sequential,0,42,2147450880,65535,chi32_sequential.bin
+chi32_swapped,1,-42,32767,65535,chi32_swapped.bin
+chi32_feedback,2,0,0,65535,chi32_feedback.bin

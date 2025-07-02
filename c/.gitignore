@@ -1,0 +1,9 @@
+# Build artifacts for canonical tests
+build/
+
+# Object files (if any were outside build/)
+*.o
+*.obj
+
+# Default executable name
+a.out

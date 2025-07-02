@@ -1,0 +1,8 @@
+# TestU01 harness executable
+chi32_testu01_harness
+
+# Generated logs
+testu01_logs/
+
+# Debug symbols for the harness
+*.dSYM

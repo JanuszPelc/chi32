@@ -1,0 +1,61 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+publish/
+
+# Tooling output
+generated_canonical_data/
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# User-specific files (Visual Studio)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results of an IDE
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_Data/
+*.vc.db
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# VS Code files
+.vscode/

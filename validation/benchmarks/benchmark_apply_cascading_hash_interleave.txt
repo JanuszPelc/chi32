@@ -1,0 +1,31 @@
+// * Summary *
+
+BenchmarkDotNet v0.13.12, macOS Sonoma 14.7.5 (23H527) [Darwin 23.6.0]
+Apple M1 Pro, 1 CPU, 10 logical and 10 physical cores
+.NET SDK 9.0.200
+  [Host]                  : .NET 8.0.15 (8.0.1525.16413), Arm64 RyuJIT AdvSIMD
+  VLR_Min100ms_AutoInvoke : .NET 8.0.15 (8.0.1525.16413), Arm64 RyuJIT AdvSIMD
+
+Job=VLR_Min100ms_AutoInvoke  MinIterationTime=100.0000 ms  IterationCount=15
+LaunchCount=2  UnrollFactor=1  WarmupCount=10
+
+| Method                             | Mean     | Error    | StdDev   | Allocated |
+|----------------------------------- |---------:|---------:|---------:|----------:|
+| Chi32.ApplyCascadingHashInterleave | 10.80 ns | 0.023 ns | 0.034 ns |         - |
+
+// * Hints *
+Outliers
+  ApplyCascadingHashInterleaveBenchmarks.Chi32.ApplyCascadingHashInterleave: VLR_Min100ms_AutoInvoke -> 1 outlier  was  removed (12.88 ns)
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ns      : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:07 (7.49 sec), executed benchmarks: 1

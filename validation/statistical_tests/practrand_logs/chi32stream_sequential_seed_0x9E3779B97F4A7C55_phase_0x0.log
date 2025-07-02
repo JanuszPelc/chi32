@@ -1,0 +1,80 @@
+RNG_test using PractRand version 0.95
+RNG = RNG_stdin32, seed = 0x9E3779B97F4A7C55
+test set = core, folding = standard (32 bit)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 1 gigabyte (2^30 bytes), time= 3.2 seconds
+  no anomalies in 194 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 2 gigabytes (2^31 bytes), time= 6.5 seconds
+  no anomalies in 205 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 4 gigabytes (2^32 bytes), time= 13.7 seconds
+  no anomalies in 217 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 8 gigabytes (2^33 bytes), time= 29.8 seconds
+  no anomalies in 230 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 16 gigabytes (2^34 bytes), time= 68.2 seconds
+  no anomalies in 240 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 32 gigabytes (2^35 bytes), time= 145 seconds
+  no anomalies in 251 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 64 gigabytes (2^36 bytes), time= 303 seconds
+  no anomalies in 263 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 128 gigabytes (2^37 bytes), time= 625 seconds
+  no anomalies in 273 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 256 gigabytes (2^38 bytes), time= 1262 seconds
+  no anomalies in 284 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 512 gigabytes (2^39 bytes), time= 2576 seconds
+  no anomalies in 295 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 1 terabyte (2^40 bytes), time= 5192 seconds
+  no anomalies in 304 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 2 terabytes (2^41 bytes), time= 10370 seconds
+  no anomalies in 313 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 4 terabytes (2^42 bytes), time= 20934 seconds
+  no anomalies in 323 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 8 terabytes (2^43 bytes), time= 41971 seconds
+  no anomalies in 331 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 16 terabytes (2^44 bytes), time= 83708 seconds
+  no anomalies in 339 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 32 terabytes (2^45 bytes), time= 167818 seconds
+  no anomalies in 347 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 64 terabytes (2^46 bytes), time= 335265 seconds
+  no anomalies in 352 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 128 terabytes (2^47 bytes), time= 672670 seconds
+  no anomalies in 358 test result(s)
+
+rng=RNG_stdin32, seed=0x9E3779B97F4A7C55
+length= 256 terabytes (2^48 bytes), time= 1353653 seconds
+  no anomalies in 363 test result(s)
+

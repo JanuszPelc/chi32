@@ -1,0 +1,28 @@
+// * Summary *
+
+BenchmarkDotNet v0.13.12, macOS Sonoma 14.7.5 (23H527) [Darwin 23.6.0]
+Apple M1 Pro, 1 CPU, 10 logical and 10 physical cores
+.NET SDK 9.0.200
+  [Host]                  : .NET 8.0.15 (8.0.1525.16413), Arm64 RyuJIT AdvSIMD
+  VLR_Min100ms_AutoInvoke : .NET 8.0.15 (8.0.1525.16413), Arm64 RyuJIT AdvSIMD
+
+Job=VLR_Min100ms_AutoInvoke  MinIterationTime=100.0000 ms  IterationCount=15
+LaunchCount=2  UnrollFactor=1  WarmupCount=10
+
+| Method                              | Mean     | Error    | StdDev   | Allocated |
+|------------------------------------ |---------:|---------:|---------:|----------:|
+| Chi32.DeriveValueAt(smallStep) | 13.67 ns | 0.016 ns | 0.024 ns |         - |
+| Chi32.DeriveValueAt(hugeStep)  | 14.04 ns | 0.018 ns | 0.027 ns |         - |
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ns      : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:17 (17.68 sec), executed benchmarks: 2

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chi32", "src\Chi32\Chi32.csproj", "{59411ED3-768E-47D6-83E1-9E89B33F378C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chi32.Tests", "tests\Chi32.Tests\Chi32.Tests.csproj", "{F268D6F3-43DD-4A40-9847-1ED863C0D9BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chi32.Benchmarks", "benchmarks\Chi32.Benchmarks\Chi32.Benchmarks.csproj", "{D657AD0F-E0D1-4DB8-9DC0-586383F86241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chi32.Utl.Generator", "tools\Chi32.Utl.Generator\Chi32.Utl.Generator.csproj", "{03EC04DF-FE8C-438C-A15C-C43A9CE71D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chi32.Utl.Streamer", "tools\Chi32.Utl.Streamer\Chi32.Utl.Streamer.csproj", "{5BF80A73-1035-4906-AE1E-B31A48437F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chi32.Utl.Walkers", "tools\Chi32.Utl.Walkers\Chi32.Utl.Walkers.csproj", "{97B3EBB9-4393-40FA-9C39-B70781A0D324}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59411ED3-768E-47D6-83E1-9E89B33F378C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59411ED3-768E-47D6-83E1-9E89B33F378C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59411ED3-768E-47D6-83E1-9E89B33F378C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59411ED3-768E-47D6-83E1-9E89B33F378C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F268D6F3-43DD-4A40-9847-1ED863C0D9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F268D6F3-43DD-4A40-9847-1ED863C0D9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F268D6F3-43DD-4A40-9847-1ED863C0D9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F268D6F3-43DD-4A40-9847-1ED863C0D9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D657AD0F-E0D1-4DB8-9DC0-586383F86241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D657AD0F-E0D1-4DB8-9DC0-586383F86241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D657AD0F-E0D1-4DB8-9DC0-586383F86241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D657AD0F-E0D1-4DB8-9DC0-586383F86241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EC04DF-FE8C-438C-A15C-C43A9CE71D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EC04DF-FE8C-438C-A15C-C43A9CE71D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EC04DF-FE8C-438C-A15C-C43A9CE71D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EC04DF-FE8C-438C-A15C-C43A9CE71D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF80A73-1035-4906-AE1E-B31A48437F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF80A73-1035-4906-AE1E-B31A48437F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF80A73-1035-4906-AE1E-B31A48437F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF80A73-1035-4906-AE1E-B31A48437F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B3EBB9-4393-40FA-9C39-B70781A0D324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B3EBB9-4393-40FA-9C39-B70781A0D324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B3EBB9-4393-40FA-9C39-B70781A0D324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B3EBB9-4393-40FA-9C39-B70781A0D324}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
