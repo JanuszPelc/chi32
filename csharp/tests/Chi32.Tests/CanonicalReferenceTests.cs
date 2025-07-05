@@ -1,6 +1,6 @@
 ﻿using System.Buffers.Binary;
 using System.Reflection;
-using FluentAssertions;
+using AwesomeAssertions;
 using Xunit;
 
 namespace Chi32.Tests;

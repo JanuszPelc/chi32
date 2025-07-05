@@ -61,8 +61,6 @@ To verify output correctness:
    dotnet test tests/Chi32.Tests/Chi32.Tests.csproj -c Debug
    ```
 
-*Note: The Fluent Assertions library may print a license-related message. It is free for non-commercial use.*
-
 ## Using the utilities
 
 These tools are intended for Release builds.
