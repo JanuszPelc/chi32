@@ -51,7 +51,7 @@ internal sealed class ChunkScheduler : IDisposable
             }
             catch
             {
-                /* swallow individual chunk failure */
+                // Ignore individual chunk failures to continue processing
             }
     }
 }

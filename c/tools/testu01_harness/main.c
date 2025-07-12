@@ -41,7 +41,7 @@ const char* strategy_to_string(strategy_kind_t strategy) {
 }
 
 // --- Function to initialize generator state based on strategy ---
-void initialize_generator_state(void) { // Can add void here for consistency too
+void initialize_generator_state(void) {
     switch (g_strategy) {
         case STRATEGY_SEQUENTIAL:
             g_current_selector = g_cli_seed_arg;  // Selector is fixed (from CLI seed)

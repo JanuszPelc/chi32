@@ -78,7 +78,6 @@ clean:
 	rm -rf $(LOG_DIR)
 	@echo "Cleanup complete."
 
-# --- MODIFIED: run_test target ---
 # Defines default strategy if not provided
 STRATEGY_ARG ?= sequential
 

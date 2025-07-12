@@ -54,7 +54,6 @@ internal static class Program
 
         var stopwatch = Stopwatch.StartNew();
 
-        // (Keep existing baseOutputDirectory and outputFullPath logic)
         var baseOutputDirectory = Path.GetDirectoryName(AppContext.BaseDirectory);
         if (string.IsNullOrEmpty(baseOutputDirectory))
         {
@@ -68,7 +67,6 @@ internal static class Program
         var outputFullPath = Path.Combine(baseOutputDirectory, OutputDirectoryName);
         Directory.CreateDirectory(outputFullPath);
 
-        // StringBuilder for CSV content
         var csvBuilder = new StringBuilder();
         csvBuilder.AppendLine("# MetaData for CHI32 Canonical Tests");
         csvBuilder.AppendLine("# Fields: logical_name,strategy_code,seed,phase,length,bin_filename");
@@ -80,12 +78,10 @@ internal static class Program
             Console.WriteLine(
                 $"  Seed: {definition.Seed}, Phase: {definition.Phase}, Length: {definition.Length}, Strategy: {definition.Strategy}");
 
-            // Generate and write .bin file (this logic remains mostly the same)
-            var data = GenerateCanonicalData(definition); // Existing function
+            var data = GenerateCanonicalData(definition);
             WriteDataToFile(data, Path.Combine(outputFullPath, definition.BinFileName),
-                definition.LogicalName); // Existing function
+                definition.LogicalName);
 
-            // Get strategy code
             var strategyCode = definition.Strategy.ToLowerInvariant() switch
             {
                 "sequential" => 0,
@@ -94,8 +90,6 @@ internal static class Program
                 _ => throw new InvalidOperationException($"Unknown strategy: {definition.Strategy}")
             };
 
-            // Append line to CSV builder
-            // Format: logical_name,strategy_code,seed,phase,length,bin_filename
             csvBuilder.AppendLine(
                 $"{definition.LogicalName},{strategyCode},{definition.Seed},{definition.Phase},{definition.Length},{definition.BinFileName}"
             );
@@ -104,7 +98,6 @@ internal static class Program
             Console.WriteLine("---");
         }
 
-        // Write the single CSV file
         var csvFilePath = Path.Combine(outputFullPath, CanonicalMetaCsvFileName);
         try
         {
