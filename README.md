@@ -1,7 +1,5 @@
 # CHI32
 
-> **⚠️ Pre-release version. Installation may not work properly. Official release coming very soon.**
-
 Cascading Hash Interleave 32-bit (CHI32) is a stateless, deterministic random number generator that produces high-quality 32-bit values by applying a sequence of well-mixed hashing operations to a pair of 64-bit integers.
 
 It is built around a custom, non-cryptographic mixing function and is designed to support two complementary roles:
